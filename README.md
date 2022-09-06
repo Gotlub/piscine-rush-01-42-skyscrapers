@@ -76,7 +76,21 @@ real	0m0.449s
 user	0m0.446s  
 sys	0m0.003s  
   
+[gotlub@fedora v3]$ time ./a.out "4 6 2 1 2 3 2 1 2 2 3 3 3 4 3 7 4 4 3 2 1 4 1 2 2 3 3 3" | cat -e  
+4 1 5 7 6 3 2$  
+1 2 3 4 5 6 7$  
+2 3 1 5 4 7 6$  
+3 4 2 6 7 1 5$  
+5 6 7 1 2 4 3$  
+6 7 4 2 3 5 1$  
+7 5 6 3 1 2 4$  
+Joupi  
+real	0m0.004s  
+user	0m0.004s  
+sys	0m0.000s  
+  
+  
 """    
 
- Sur un q6600 à 5GHz.    
-}  
+ Sur un q6600 à 5GHz -> joupi . Certaines grille passe pas / mal a partir de 8x8 .   
+} 
