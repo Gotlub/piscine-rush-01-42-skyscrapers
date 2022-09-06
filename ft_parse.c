@@ -12,7 +12,11 @@ void ft_print_tab(int **table)
     {
         j = - 1;
         while (++j < g_lensquare)
-            printf("%d ",table[i][j]);
+        {
+            printf("%d",table[i][j]);
+            if ((j + 1) != g_lensquare)
+            printf(" ");
+        }
     printf("\n"); 
     }   
 }
