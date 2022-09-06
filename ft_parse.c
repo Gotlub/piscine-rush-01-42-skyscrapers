@@ -14,8 +14,8 @@ void ft_print_tab(int **table)
         while (++j < g_lensquare)
         {
             printf("%d",table[i][j]);
-            if ((j + 1) != g_lensquare)
-            printf(" ");
+            if (j != g_lensquare - 1)
+                printf(" ");
         }
     printf("\n"); 
     }   
@@ -65,7 +65,7 @@ int ft_dfs(int **table, int **tab_parse, int *perimeter, int i)
             commut = ft_dfs(table, tab_parse, perimeter, i + 1);
         }
     }
-    if (commut == 0)
+    if (commut ==0)
         table[y][x] = 0;
     return (commut);
 }
@@ -91,6 +91,10 @@ int ft_parse(int all_side, int *perimeter, int **table, int **tab_parse)
         }
     }
     if (ft_dfs(table, tab_parse, perimeter, 0) == 0)
-        printf("Error\n");
+    {
+        printf("coucou_error\n");
+    }
+    else
+        printf("Joupi");
     return (0);
 }
