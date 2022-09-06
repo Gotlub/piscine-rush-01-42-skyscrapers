@@ -116,7 +116,6 @@ int main(int argc , char *argv[])
     }
     g_lensquare = (all_side / 4);
     ft_game_launch(all_side, perimeter);
-    
     free(perimeter);
     return (0);
 }
