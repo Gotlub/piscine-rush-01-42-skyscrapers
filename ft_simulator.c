@@ -33,11 +33,7 @@ int ft_verti_2(int **table, int *perimeter, int x)
     look = 0;
     while ((g_lensquare - i) <= g_lensquare) 
     {
-        if (table[i][x] == 0)
-        {
-            return (1);
-        }
-        else if (table[i][x] > temp)
+        if (table[i][x] > temp)
         {
             temp = table[i][x];
             look++;
@@ -49,7 +45,7 @@ int ft_verti_2(int **table, int *perimeter, int x)
     return (0);
 }
 
-int ft_verti(int **table, int *perimeter, int x)
+int ft_verti(int **table, int *perimeter,int y, int x)
 {
     int       i;
     int    temp;
@@ -60,31 +56,26 @@ int ft_verti(int **table, int *perimeter, int x)
     look = 0;
     while (++i < g_lensquare) 
     {
-        if (table[i][x] == 0)
-        {
-            return (1);
-        }
-        else if (table[i][x] > temp)
+        if ((table[i][x] != 0) && (table[i][x] > temp))
         {
             temp = table[i][x];
             look++;
         }
     }
-    if (perimeter[x] == look)
-        if (ft_verti_2(table, perimeter, x) != 0)
+    if ((y < g_lensquare - 1) && look <= perimeter[x])
+        return (1);
+    if ((y == g_lensquare - 1) && (look == perimeter[x]) && (ft_verti_2(table, perimeter, x) != 0))
             return (1);
     return (0);
 }
-
-
 
 int ft_simulator(int **table, int *perimeter, int y, int x)
 {
     if (ft_seek_double(table, y, x) == 0)
         return  (0);
-    if (ft_verti(table, perimeter, x) == 0)
+    if (ft_verti(table, perimeter, y, x) == 0)
         return (0);
-    if (ft_hori(table, perimeter, y) == 0)
+    if (ft_hori(table, perimeter, y, x) == 0)
         return (0);
     return (1);
 }
