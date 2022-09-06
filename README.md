@@ -93,7 +93,7 @@ sys	0m0.000s
   
 """    
 
- Sur un q6600 à 5GHz -> joupi . Certaines grille passent pas / mal a partir de 8x8 .   
+ Sur un i5 6600k à 5GHz (le 00 sec etait lancé depuis un tmux) -> joupi . Certaines grille passent pas / mal a partir de 8x8 .   
 } 
 C08 -> Norme a voir   
  Fonctionnel  
