@@ -1,11 +1,12 @@
 # piscine-remake-42 {
-#\* Hello world */"  \n  
+#\* Hello world */"  \n 
+RUSH 01 :     
 probablement pas aux normes  
 Marche jusqu'au 8 * 8 . N'accepte que les format "x x x x"(%4 = 0)  
 
 "25815 gotlub      20   0  2612   932   844 R  99.9  0.0 10h49:28 ./a.out 3 2 1 3 2 2 4 6 3 2 1 5 3 4 3 2 4 5 3 4 3 4 2 3 1 4 2 3 3 3 1 3 2 3 3 5"  
 -> 9*9 :'(  
-https://github.com/Gotlub/piscine-remake-42
+ 
 """  
 [gotlub@fedora v3]$ gcc -Wall -Werror -Wextra -O3 main.c  
 [gotlub@fedora v3]$ time valgrind ./a.out "4 6 2 4 3 2 1 1 2 2 3 3 5 6 4 6 4 3 3 2 1 1 2 2 4 2 3 4"  
@@ -92,5 +93,9 @@ sys	0m0.000s
   
 """    
 
- Sur un q6600 à 5GHz -> joupi . Certaines grille passe pas / mal a partir de 8x8 .   
+ Sur un q6600 à 5GHz -> joupi . Certaines grille passent pas / mal a partir de 8x8 .   
 } 
+C08 -> Norme a voir   
+ Fonctionnel  
+  
+Gotlub#8595  
