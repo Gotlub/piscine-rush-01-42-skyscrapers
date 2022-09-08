@@ -95,7 +95,7 @@ sys	0m0.000s
 
  Sur un i5 6600k à 5GHz (le 00 sec etait lancé depuis un tmux) -> joupi . Certaines grille passent pas / mal a partir de 8x8 .   
  ---EDIT---  
-6 sep 23H -> V2 Meilleur perf  
+6 sep 23H -> changement Meilleur perf  
 [gotlub@fedora v4]$ time ./a.out "2 1 3 3 5 2 5 3 3 2 4 4 2 2 2 1 2 1 3 3 4 2 2 3 3 5 2 5 2 3 2 1"  
 1 8 2 5 3 7 4 6  
 8 1 3 7 4 6 5 2  
@@ -124,7 +124,10 @@ real    0m0.315s
 user    0m0.313s  
 sys     0m0.005s  
 [gotlub@fedora v4]  
-  
+   
+  ---EDIT---
+  V2 "tissage" DISPO 
+ 
 }  
 C08 -> Norme a voir   
  Fonctionnel  
