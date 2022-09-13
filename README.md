@@ -1,10 +1,10 @@
 # piscine-remake-42 {
 #\* Hello world */"  \n  
-RUSH 01 / TD8: Skyscrapers :  No swimming pool on the roof.  
+RUSH 01 /   
 
 probablement pas aux normes  - Norm not ok .  
 Marche jusqu'au 8 * 8. Work util 8 * 8.  
-Can do much better but I'm a beginner.  
+
 Input on argv[2] , format "4 6 2 4 3 2 1 1 2 2 3 3 5 6 4 6 4 3 3 2 1 1 2 2 4 2 3 4" -> ( view in oder -> north south west est )
 online puzzle for test    
 
