@@ -1,12 +1,12 @@
 # piscine-remake-42 {
 #\* Hello world */"  \n  
-RUSH 01 /   
+RUSH 01 /      
 
 probablement pas aux normes  - Norm not ok .  
 Marche jusqu'au 8 * 8. Work util 8 * 8.  
 
-Input on argv[2] , format "4 6 2 4 3 2 1 1 2 2 3 3 5 6 4 6 4 3 3 2 1 1 2 2 4 2 3 4" -> ( view in oder -> north south west est )
-online puzzle for test    
+Input on argv[2] , format "4 6 2 4 3 2 1 1 2 2 3 3 5 6 4 6 4 3 3 2 1 1 2 2 4 2 3 4" -> ( view in oder -> north south west est )    
+online puzzle for test      
 
 https://fr.puzzle-skyscrapers.com/   
 https://codepen.io/rs_zdjn/pen/dyoYJjo  
